@@ -1,4 +1,4 @@
-name: Downport
+name: Update & Downport
 
 on:
   workflow_dispatch:
