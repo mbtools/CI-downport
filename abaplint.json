@@ -19,12 +19,19 @@
   ],
   "syntax": {
     "version": "v702",
-    "errorNamespace": "^(Z|Y)",
+    "errorNamespace": "^(Z|Y|LT?CL_|TY_|LIF_)",
     "globalConstants": [],
     "globalMacros": []
   },
   "rules": {
-    "parser_error": true,
-    "downport": true
+    "downport": true,
+    "check_syntax": true,
+    "keyword_case": true,
+    "indentation": true,
+    "definitions_top": true,
+    "whitespace_end": true,
+    "line_break_multiple_parameters": true,
+    "parser_error": true
   }
 }
+
